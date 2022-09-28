@@ -1,0 +1,173 @@
+used unigrams in corpus 1: 357
+
+used unigrams in corpus 2: 469
+
+used bigrams in corpus 1: 902
+
+used bigrams in corpus 2: 953
+
+standard dev. of bigrams in corpus 1: 1.4953735007929003
+
+standard dev. of bigrams in corpus 2: 1.2262432926632785
+
+standard dev. of unigrams in corpus 1: 6.577271790163508
+
+standard dev. of unigrams in corpus 2: 5.5633586517743865
+
+proportion of unsused bigrams in corpus 1: 0.9929226592597823
+
+proportion of unsused bigrams in corpus 2: 0.9956674137688045
+
+average unigram count in corpus 1: 1.2361419068736141
+
+average unigram count in corpus 2: 1.1196222455403988
+
+average bigram count in corpus 1: 1.2361419068736141
+
+average bigram count in corpus 2: 1.1196222455403988
+
+proportion of shared unigrams in corpus 1: 0.24649859943977592
+
+proportion of shared unigrams in corpus 2: 0.18763326226012794
+
+proportion of shared bigrams in corpus 1: 0.04656319290465632
+
+proportion of shared bigrams in corpus 2: 0.04407135362014691
+
+
+underliers in corpus 1 (unigrams):
+overliers in corpus 1 (unigrams):
+self-control
+,
+self-efficacy
+and
+new
+resolutions
+to
+.
+of
+the
+that
+this
+more
+or
+a
+if
+be
+at
+(
+)
+is
+goals
+set
+they
+in
+you
+lay
+theories
+as
+participants
+were
+
+
+underliers in corpus 2 (unigrams):
+overliers in corpus 2 (unigrams):
+on
+sand
+:
+the
+with
+"
+cape
+,
+this
+is
+of
+a
+.
+in
+at
+david
+and
+but
+that
+to
+--
+for
+it
+be
+
+
+underliers in corpus 1 (bigrams):
+overliers in corpus 1 (bigrams):
+self-control | ,
+self-efficacy | ,
+, | and
+new | year's
+year's | resolutions
+resolutions | .
+the | first
+of | the
+, | or
+resolutions | ,
+) | .
+about | self-control
+many | goals
+a | person
+look | at
+you | believe
+in | the
+. | mukhopadhyay
+mukhopadhyay | &
+& | venkatarmani
+lay | theories
+theories | of
+of | self-control
+amount | of
+can | be
+if | you
+, | if
+you'll | set
+goals | .
+self-control | is
+belief | in
+, | the
+and | thus
+. | the
+people | who
+how | much
+much | success
+and | self-efficacy
+self-control | and
+
+
+underliers in corpus 2 (bigrams):
+overliers in corpus 2 (bigrams):
+farming | on
+: | the
+cape | cod
+in | the
+. | but
+, | and
+, | david
+of | north
+north | truro
+on | the
+the | outer
+. | the
+. | david
+. | last
+it | was
+-- | but
+but | it
+. | "
+to | keep
+sand | .
+salt | marsh
+to | be
+. | this
+and | it
+that | means
+the | cape
+of | the
+

@@ -1,0 +1,40 @@
+Documentation for NGramModeller
+
+The program includes algorithms to make a unigram model and a bigram model of a predetermined corpus.
+Also included are algorithms to determine various statistical features of the text. These statistics are:
+*number of unigrams used in the corpus;
+*number of bigrams used in the corpus;
+*standard deviation of bigram/unigram counts in the corpus;
+*proportion of bigrams, of words in the corpus, that are not used in the corpus;
+*average of bigram/unigram counts in the corpus;
+*given two texts, T and S, the proportion of bigrams/unigrams in T that are shared by S;
+*The "underlier" bigrams/unigrams in the text, i.e. the bigrams/unigrams of the text that 
+have counts that are more than one standard deviation below the average bigram/unigram count 
+for the corpus. Incidentally, there were no underliers in any of the models;
+*the "overlier" bigrams/unigrams in the text, i.e. the bigrams/unigrams of the text that 
+have counts that are more than one standard deviation above the average bigram/unigram count 
+for the corpus;
+All of these statistics are written to the file called ngram stats, which should appear in 
+the same directory as the program files when the file Main.py is executed.
+
+Functions are also included to determine the unsmoothed and Laplace-smoothed probabilities 
+of the bigrams in the corpus. 
+The unsmoothed bigram probabilities for corpus 1 ("blog-new-year's-resolutions.txt") are 
+written to "raw probabilities for bigram model 1.txt". 
+The unsmoothed bigram probabilities for corpus 2 ("Uprooted_Farming-on-Sand.txt") are 
+written to "raw probabilities for bigram model 2.txt". 
+The unsmoothed unigram probabilities for corpus 1 are written to "raw probabilities for 
+unigram model 1.txt". 
+The unsmoothed unigram probabilities for corpus 2 are written to "raw probabilities for 
+unigram model 2.txt". 
+The laplace smoothed probabilities for the bigrams in corpus 1 are written to "laplace-
+smoothed probabilities for bigram model 1.txt". 
+The laplace smoothed probabilities for the bigrams in corpus 2 are written to "laplace-
+smoothed probabilities for bigram model 2.txt". 
+All these output files should appear in the same directory as the program files.
+
+To run the program, run the file Main.py
+ 
+The test data used can be found in "blog-new-year's-resolutions.txt" and in "prooted_Farming-
+on-Sand.txt" Both are in the same directory as the program files.
+
