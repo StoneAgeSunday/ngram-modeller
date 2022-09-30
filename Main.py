@@ -4,23 +4,27 @@ from NGramStats import *
 from Smoother import *
 from tokenizer import *
 from reporter import *
+import subprocess
+import sys
 
-f = open("blog-new-year's-resolutions.txt", 'r')
-corpus = f.read()
-f.close()
+#we need to spawn the corpusSelector.
+#then we need to capture its output and extract the corpus names from its output
+corpSelOut = subprocess.run(["python", "corpusSelector.py"], capture_output = True, text = True)
+fileList = corpSelOut.stdout.split("\n")
+fileName1 = fileList[0]
+fileName2 = fileList[1]
 
-f2 = open("Uprooted_Farming-on-Sand.txt", 'r')
+f1 = open(fileName1, 'r')
+corpus = f1.read()
+f1.close()
+
+f2 = open(fileName2, 'r')
 corpus2 = f2.read()
 f2.close()
-#print("red")
 
 corpArray = tokenize(corpus)
 corpArray2 = tokenize(corpus2)
-#print("red")
-#it feels needless to add <s> symbols
-#for i in range(len(corpArray)):
-#    if ((corpArray[i] == ".") or (corpArray[i] == "!") or (corpArray[i] == "?")):
-#print("blue")
+
 #this is to make all words lowercase; so that each word only occurs once in the 
 #model, regardless of whether it appears with the first letter capitalized
 corpArray = normalizeCase(corpArray)

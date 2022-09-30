@@ -1,0 +1,1 @@
+In the custom-file-choice version, the user is given the option of choosing which text files the NGramModeller uses as corpuses.
