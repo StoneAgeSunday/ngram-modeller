@@ -1,7 +1,7 @@
 #from nltk.tokenize import word_tokenize
 from modelMaker import *
-from NGramStats import *
-from Smoother import *
+from ngramStats import *
+from smoother import *
 from tokenizer import *
 from reporter import *
 import subprocess
